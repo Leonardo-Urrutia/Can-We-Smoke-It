@@ -1,0 +1,92 @@
+body {
+  background-color: green;
+  padding: 0;
+  margin: 0;
+}
+
+
+body,
+html {
+  height: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+  background-color: rgb(221, 226, 231);
+}
+
+#navigation{
+    float: right;
+    position: absolute;
+    right:5%''
+}
+
+.centered{
+    text-align: center;
+    
+}
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .viz {
+    float: right;
+    max-resolution: left 45px;
+  }
+  .floatright{
+    float: right;
+    margin-left:10px;
+  }
+  .floatrightclear{
+    float:right;
+    clear:right;
+    margin-left: 20px;
+  }
+  .boxed{
+    border: 10px rgb(170, 15, 15);
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  
+  }
+  .results-body {
+    max-width: 80%;
+
+  }
+  .center-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .roadmap-img {
+    padding-bottom: 20px;
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  .result-images {
+    height: 400px;
+    width: 400 px;
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  .result-text{
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* .custom-cursor{
+  cursor: url (https://www.svgrepo.com/show/89591/cannabis-leaf.svg)
+} */
